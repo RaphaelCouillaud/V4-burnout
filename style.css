@@ -1,0 +1,592 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+
+ 
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Open Sans Condensed','Trebuchet MS', Arial, Helvetica, sans-serif;
+  background: -moz-linear-gradient(left, #dcdcbc 0%, #c4c48c 60%, #aca474 100%);
+    background: -webkit-linear-gradient(left, #dcdcbc 0%, #c4c48c 60%, #aca474 100%);
+    background: linear-gradient(to right, #dcdcbc 0%, #c4c48c 60%, #aca474 100%);
+  /*background: -moz-linear-gradient(left, #02867A 0%, #04BCAC 30%, #f0faf9 100%);
+    background: -webkit-linear-gradient(left, #02867A 0%, #04BCAC 30%, #f0faf9 100%);
+    background: linear-gradient(to right, #02867A 0%, #04BCAC 30%, #f0faf9 100%); */
+}
+a {
+  text-decoration: none;
+}
+header a { 
+  color: black;
+  text-decoration: none;
+  margin-bottom: 0;
+  margin-top: 0;  
+
+}
+header h1 { 
+  font-size: 3.5em; 
+  color: #acacac;  
+  font-weight: lighter;  
+  margin-bottom: 0;
+ margin-top: 10px;
+  line-height: 100%;
+}
+header h2 { 
+  font-size: 1.15em;
+  margin: auto;
+  font-family: 'Handlee', 'Trebuchet MS', Arial, Helvetica, cursive;
+  color: #00005D;  
+  width: 430px;
+ 	height: 265px;
+  
+  
+ padding: 10px 10px 0 10px;
+}
+#cartevisite span {
+  font-size: 0.7em;
+   
+   color: #b48c84; 
+
+   
+}
+#cartevisite strong {
+  
+   font-weight: lighter;
+}
+#cartevisite em {
+  font-family: 'Open Sans Condensed', Arial,'Trebuchet MS', Helvetica, sans-serif;
+
+}
+
+#cartevisite {
+  display: flex;
+  flex-direction: column;
+  width: 475px;
+ 	height: 280px;
+  margin-left: 75px;
+   background-image: url("img/decocarte.jpg");
+   background-size: 100%;
+   background-repeat: no-repeat;
+   margin-top: 25px;
+   border: 3px solid #acacac;
+   margin-bottom: 25px;
+   
+   box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, .5);
+   box-sizing: content-box;
+
+
+}
+
+#cartevisite:hover {
+  transform: scale(1.05);
+  opacity: 1;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out; 
+  
+}
+#illustration1 {
+ opacity: 0.8;
+ margin: auto;
+
+}
+#image_burnout {
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 0;
+
+}
+#illustration1 strong {
+   font-family: 'Open Sans Condensed', Arial,'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 2.5em;
+    margin: auto;
+     opacity: 0.75;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+   
+
+   
+
+}
+#navbar {
+  display: flex;  
+  justify-content: space-around;
+  align-items: center;  
+  margin-bottom: 0;
+
+}
+.liensnav {
+    font-size: 1.7em; 
+    color: #00005D;  
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+
+}
+.liensnav:hover {
+    transform: scale(1.2);
+  opacity: 1;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out; 
+
+
+}
+
+
+  
+
+main {
+  
+   font-family: 'Grand Hotel', cursive; 
+  
+  font-size: 1.5em;
+  background-color: #FAFDFD;
+  padding-bottom: 35px;
+  display: block;
+  background-image: url("img/backlotusopacity.png");
+  background-repeat: repeat;
+
+
+ 
+
+}
+main h2 {
+  font-size: 1.7em;
+  color: #aca474;
+  font-family: 'Handlee', 'Trebuchet MS', Arial, Helvetica, cursive;
+}
+
+#pageindex, #pageprise, article, #pagequi {
+  display: flex;
+ 
+  justify-content: space-between;
+  margin-bottom: 25px;
+  
+}
+aside {  
+  border: 4px solid #aca474;  
+  background-color: #acacac;  
+  color: white;
+  margin: auto;
+  font-size: 1.1em;
+  font-style: italic;
+  padding: 10px;
+  align-self: center;
+  overflow: hidden;
+ font-family: 'Open Sans Condensed', 'Trebuchet MS', Arial, Helvetica, sans-serif;
+
+}
+
+#asidepsy, #asidequi {
+  margin-left: 50px;
+}
+
+#asidepsy {
+  width: 25%;
+}
+
+
+
+#image_photocv {
+  border-radius: 50%;
+  border: 4px solid #aca474;
+  width: 175px;
+  height: 175px;  
+  margin: auto; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#descriptionrpbo, #descriptioncv, #descriptionrdv {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;  
+  width: 150%; 
+  display: flex;
+ flex-direction: column;
+}
+
+
+#descriptionrpbo p, #descriptioncv p, #descriptionrdv p {
+  text-align: center;
+  font-size: 1.2em;
+  color: #00005D;
+  letter-spacing: .1rem;
+}
+#descriptionrpbo p:nth-child(2), #descriptionrpbo p:nth-child(5), #descriptionrpbo p:nth-child(6) {
+  margin-bottom: 0;
+}
+#descriptioncv p:nth-child(2), #descriptioncv p:nth-child(3), #descriptioncv p:nth-child(4), #descriptioncv p:nth-child(7), #descriptioncv p:nth-child(8), #descriptioncv p:nth-child(9) {
+  margin-bottom: 0;
+}
+#descriptionrpbo h2, #descriptioncv h2, #descriptionrdv h2 {
+  text-align: center;
+  margin: auto;
+  font-size: 1.7em;  
+  align-items: center;
+}
+#descriptionrpbo em {
+  font-size: 0.9em;
+   
+  
+
+}
+
+/*------Soulignement titres------*/
+.titre span {
+  background: linear-gradient(to top, #acacac 0%, #acacac 7.5%, transparent 7.51%) no-repeat left bottom / 0 100%;
+  transition: background-size 0.7s; 
+  color: inherit;   
+}
+.titre span:hover {
+  background-size: 100% 100%;
+} 
+.decolotus { 
+  width: 40px;
+  height: 32px;
+  margin-right: 15px;
+
+}
+
+/*------------------Aside CV--------------------*/
+#asidequi .fas {
+	font-size: 2em;
+	color: black;
+  opacity: 0.5;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+
+}
+#logoars {
+	width: 45%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+	
+}
+#logoreseau {
+	width: 30%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+	
+}
+
+#asidequi p {
+	margin-top: 0;
+	text-align: center;
+
+}
+nav { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  
+   
+  padding-top: 5px;
+  padding-bottom: 5px;  
+}
+
+
+
+#bullecontact, #bullerpbo, #bullequi {
+ 
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: #aca474;
+  border: 7px solid #b48c84;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+}
+#bullequi {
+  background-color: #e4c4ac;
+  border: 7px solid #aca474;
+
+}
+#bullecontact h3, #bullerpbo h3, #bullequi h3 {
+ display: flex;
+ flex-direction: column;
+  color: white;
+  font-size: 1.3em;
+  margin: auto;
+  align-items: center;
+  font-family: 'Open Sans Condensed', Arial, 'Trebuchet MS', Helvetica, sans-serif;
+  
+}
+#bullequi h3 {
+color: black;
+  opacity: 0.7; 
+}
+#bullecontact:hover, #bullerpbo:hover, #bullequi:hover {  
+  object-fit: cover;
+  transform: scale(1.1);
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  background-color: white;
+   border: 5px solid #acacac;
+   box-shadow: 0px 0px 8px 8px #acacac; 
+}
+
+#bullecontact:hover {
+  background-image: url("img/pdflogo.png");
+  background-size: 100%;
+   background-repeat: no-repeat;
+}
+#bullerpbo:hover {
+  background-image: url("img/logorpbook.png");
+  background-size: 100%;
+   background-repeat: no-repeat;
+}
+#bullequi:hover {
+  background-image: url("img/photoprofilbulle.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#bullecontact h3:hover, #bullerpbo h3:hover, #bullequi h3:hover {
+  opacity: 0;
+
+
+}
+article {
+  display: flex;
+  background-color: #e4c4ac;
+  font-family: 'Open Sans Condensed', 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  border: 4px solid #aca474;
+  
+  width: 45%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+
+}
+article h2 {
+  
+  font-family: 'Open Sans Condensed', 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  color: black;
+  opacity: 0.7;  
+
+}
+article p {
+  padding: 10px;
+  text-align: center;
+}
+#infos {
+  width: 60%;
+  color: black;
+  opacity: 0.7; 
+}
+
+iframe {
+  padding: 15px;
+}
+
+footer {
+  background: -moz-linear-gradient(right #dcdcbc 0%, #c4c48c 30%, #aca474 100%);
+    background: -webkit-linear-gradient(right, #dcdcbc 0%, #c4c48c 30%, #aca474 100%);
+    background: linear-gradient(to left, #dcdcbc 0%, #c4c48c 30%, #aca474 100%);
+  text-decoration: none; 
+  align-items: center;
+
+}
+footer p {
+  margin: 0;
+}
+address {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 1.8em; 
+  font-family: 'Open Sans Condensed', 'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+address i {
+  margin-right: 10px;
+  color: black;
+  opacity: 0.7;
+}
+#email, #phone, #card {
+  display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+   margin-top: 30px;
+}
+#consultations {
+  font-family: 'Open Sans Condensed', 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  color: black;
+  opacity: 0.7; 
+  padding-bottom: 10px;
+
+
+}
+  
+  
+
+@media screen and (max-width: 1400px)
+{
+	header {
+  	display: flex;
+ 	 flex-direction: column; 
+ 	 margin: auto; 
+	}
+	#cartevisite {
+  margin-left: 0px;
+  margin-top: 25px; 
+  margin-bottom: 25px;
+	}
+	#illustration1 strong {  
+    font-size: 2.5em;
+
+   }
+   article {
+  	width: 70%;
+  }
+  
+  	#pagequi {  
+  flex-direction: column-reverse;
+	}
+	#descriptioncv {
+  		width: auto; 
+	}
+	#asidequi {
+		display: flex;
+		flex-direction: row;
+		margin: auto;
+	}
+	#diplome, #adeli, #reseau, #experience {
+		width: 20%;
+	}
+
+  
+}
+@media screen and (max-width: 768px)
+{
+		
+	#illustration1 strong {  
+    font-size: 2.5em;
+   }
+   #pageindex {
+  display: flex;
+  flex-direction: column-reverse;  
+  margin: auto;
+	}
+	#descriptionrpbo, #descriptioncv, #descriptionrdv {
+  width: auto; 
+	}
+	#asidepsy, #asidequi {
+  		margin-left: 50px;
+  		margin-right: 50px;
+  		margin-bottom: 25px;
+  		width: 90%;
+  		padding: 0;
+	}
+	article {
+  	width: 90%;
+  }
+  .decolotus { 
+  		width: 32px;
+  		height: 25px;
+  
+
+	}
+  #asidequi {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		width: 40%;
+	}
+	#diplome, #adeli, #reseau, #experience {
+		width: auto;
+	}
+  	address {
+  		display: flex;
+  		flex-direction: column-reverse;	
+  		align-items: center;	
+	}
+	
+  	
+
+}
+@media screen and (max-width: 550px) {
+	
+	#cartevisite {
+  		background-size: cover;
+  		width: 80%;
+ 		height: 315px;
+  	}
+	header h2 { 
+  		font-size: 1.1em;
+  		text-align: center;
+  		display: flex;
+  		width: 100%;
+  		padding: 0;
+  
+	}
+
+	#image_burnout {
+		width: 90%;
+	}
+	#illustration1 strong {   
+    font-size: 1.75em;
+   }
+   .decolotus { 
+  		width: 28px;
+  		height: 22px;
+
+	}
+   nav { 
+  		flex-direction: column;
+  		width: 90%;
+  		margin: auto;
+  		align-items: center;
+  }
+  #bullecontact, #bullerpbo, #bullequi {
+  		margin-top: 10px;
+  		margin-bottom: 10px;
+	}
+	#asidequi {
+		width: 60%;
+	}
+	#descriptionrpbo h2, #descriptioncv h2, #descriptionrdv h2 {
+  
+  font-size: 1.4em;  
+	}
+   article {
+  		flex-direction: column;
+  		width: 90%;
+  }
+  iframe {
+ 	 width: 90%;
+	}
+	#card {
+		width: 60%;		
+	}
+}
+
+
+@media screen and (max-width: 375px) {
+	#cartevisite {  
+ 	height: 375px;
+  }
+  #illustration1 strong {   
+    font-size: 1.5em;
+   }
+}
+
+@media screen and (max-width: 340px) {
+	#cartevisite {  
+ 	height: 400px;
+  }
+}
+
+
+
